@@ -1,4 +1,4 @@
-### Tikkurila - Live Demo - https://krakvinme.github.io/tikkurila/
----
-Only the main page of the project is presented for review.  
-Used: Gulp, Html, Js, Sass(Scss)
+## Установки зависимостей проекта
+Для установки зависимостей проекта необходимо в командной строке ввести команды:
+-	`npm install`
+-	`bower install` (только для версии 1.0.0)
