@@ -1,0 +1,44 @@
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 0) {
+
+}
+
+//MEDIA
+@media screen and (max-width: 991px){
+    .copy{
+        font-size: 14px;
+    }
+    .socials__item {
+        margin-right: 10px;
+    }
+    .p-partners__item {
+        margin: 0 20px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .page-footer__wrap {
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .copy{
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .b-logo,
+    .socials{
+        margin-bottom: 16px;
+    }
+    .p-partners{
+        margin: 0 0 16px;
+    }
+}
