@@ -129,4 +129,15 @@ window.addEventListener('load', () => {
         preferredCountries:false,
         onlyCountries: ["at","az","am","by","bg","gb","hu","de","gr","ge","il","in","es","it","kz","cy","kg","cn","lv","lt","my","mx","md","ae","pl","ru","ro","us","tj","th","tm","tr","uz","ua","fi","fr","cz","ch","ee","kr","jp"],
     });
+
+    const inputPopup = document.querySelector("#country-phone-popup");
+    window.intlTelInput(inputPopup, {
+        autoPlaceholder: "off",
+        initialCountry:"ru",
+        separateDialCode:true,
+        nationalMode: false,
+        preventInvalidDialCodes: true,
+        preferredCountries:false,
+        onlyCountries: ["at","az","am","by","bg","gb","hu","de","gr","ge","il","in","es","it","kz","cy","kg","cn","lv","lt","my","mx","md","ae","pl","ru","ro","us","tj","th","tm","tr","uz","ua","fi","fr","cz","ch","ee","kr","jp"],
+    });
 });

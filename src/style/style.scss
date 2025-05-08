@@ -96,7 +96,7 @@ section{
 		color: #333333;
 		text-decoration: none;
 		border-radius: 20px;
-		background: rgb(224, 250, 255);
+		background: var(--main-bg);
 		padding: 13px 40px;
 		transition: all .25s ease;
 		position: absolute;
@@ -156,7 +156,7 @@ section{
 		padding: 30px 30px 30px 40px;
 		position: relative;
 		border-radius: 30px;
-		background: rgb(224, 250, 255) url("data:image/svg+xml,%3Csvg width='82' height='61' viewBox='0 0 82 61' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.238 -1.27554e-05L64.118 37.236L62.62 27.178C65.9013 27.178 68.826 27.9627 71.394 29.532C73.962 31.1013 76.0307 33.17 77.6 35.738C79.1693 38.1633 79.954 40.9453 79.954 44.084C79.954 47.2227 79.1693 50.076 77.6 52.644C76.0307 55.212 73.962 57.2807 71.394 58.85C68.826 60.2767 65.9013 60.99 62.62 60.99C59.4813 60.99 56.5567 60.2767 53.846 58.85C51.278 57.2807 49.2093 55.1407 47.64 52.43C46.0707 49.7193 45.286 46.7233 45.286 43.442C45.286 40.1607 45.928 36.7367 47.212 33.17C48.6387 29.6033 51.1353 24.9667 54.702 19.26L66.258 -1.27554e-05H81.238ZM36.512 -1.27554e-05L19.392 37.236L17.894 27.178C21.1753 27.178 24.1 27.9627 26.668 29.532C29.236 31.1013 31.3047 33.17 32.874 35.738C34.4433 38.1633 35.228 40.9453 35.228 44.084C35.228 47.2227 34.4433 50.076 32.874 52.644C31.3047 55.212 29.236 57.2807 26.668 58.85C24.1 60.2767 21.1753 60.99 17.894 60.99C14.7553 60.99 11.8307 60.2767 9.12 58.85C6.552 57.2807 4.48333 55.1407 2.914 52.43C1.34467 49.7193 0.560001 46.7233 0.560001 43.442C0.560001 40.1607 1.202 36.7367 2.486 33.17C3.91267 29.6033 6.40933 24.9667 9.976 19.26L21.532 -1.27554e-05H36.512Z' fill='white'/%3E%3C/svg%3E%0A") 40px 40px no-repeat;
+		background: var(--main-bg) url("data:image/svg+xml,%3Csvg width='82' height='61' viewBox='0 0 82 61' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M81.238 -1.27554e-05L64.118 37.236L62.62 27.178C65.9013 27.178 68.826 27.9627 71.394 29.532C73.962 31.1013 76.0307 33.17 77.6 35.738C79.1693 38.1633 79.954 40.9453 79.954 44.084C79.954 47.2227 79.1693 50.076 77.6 52.644C76.0307 55.212 73.962 57.2807 71.394 58.85C68.826 60.2767 65.9013 60.99 62.62 60.99C59.4813 60.99 56.5567 60.2767 53.846 58.85C51.278 57.2807 49.2093 55.1407 47.64 52.43C46.0707 49.7193 45.286 46.7233 45.286 43.442C45.286 40.1607 45.928 36.7367 47.212 33.17C48.6387 29.6033 51.1353 24.9667 54.702 19.26L66.258 -1.27554e-05H81.238ZM36.512 -1.27554e-05L19.392 37.236L17.894 27.178C21.1753 27.178 24.1 27.9627 26.668 29.532C29.236 31.1013 31.3047 33.17 32.874 35.738C34.4433 38.1633 35.228 40.9453 35.228 44.084C35.228 47.2227 34.4433 50.076 32.874 52.644C31.3047 55.212 29.236 57.2807 26.668 58.85C24.1 60.2767 21.1753 60.99 17.894 60.99C14.7553 60.99 11.8307 60.2767 9.12 58.85C6.552 57.2807 4.48333 55.1407 2.914 52.43C1.34467 49.7193 0.560001 46.7233 0.560001 43.442C0.560001 40.1607 1.202 36.7367 2.486 33.17C3.91267 29.6033 6.40933 24.9667 9.976 19.26L21.532 -1.27554e-05H36.512Z' fill='white'/%3E%3C/svg%3E%0A") 40px 40px no-repeat;
 		max-width: 379px;
 	}
 	ul{
@@ -247,7 +247,7 @@ section{
 	&__item{
 		color: #333333;
 		text-decoration: none;
-		background: #E0FAFF;
+		background: var(--main-bg);
 		border-radius: 30px;
 		height: auto;
 		transition: all .25s ease;
@@ -290,7 +290,7 @@ section{
 		overflow: hidden;
 	}
 	&__item{
-		background: #E0FAFF;
+		background: var(--main-bg);
 		border-radius: 30px;
 		color: #333333;
 		text-decoration: none;
@@ -497,7 +497,7 @@ section{
 		line-height: 1.5;
 		font-family: "Unbounded", sans-serif;
 		border-radius: 30px;
-		background: #E0FAFF;
+		background: var(--main-bg);
 		padding: 40px 34px 56px 40px;
 		color: #333333;
 		text-decoration: none;
@@ -836,7 +836,7 @@ section{
     background-color: transparent;
 }
 .iti__country.iti__highlight {
-    background-color: #E0FAFF;
+    background-color: var(--main-bg);
 }
 .iti__country-list {
     overflow-y: auto;
@@ -876,7 +876,7 @@ section{
 	}
 	&__title{
 		border-radius: 30px;
-		background: #E0FAFF;
+		background: var(--main-bg);
 		padding: 10px 20px;
 		font-size: 24px;
 		margin-bottom: 4px;
@@ -916,7 +916,7 @@ section{
 	&__link{
 		display: inline-flex;
 		align-items: center;
-		background: #E0FAFF;
+		background: var(--main-bg);
 		transition: all .25s ease;
 		padding: 10px 15px;
 		color: #333;
