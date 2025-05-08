@@ -4,8 +4,8 @@
   --iti-dialcode-color: #999;
   --iti-dropdown-bg: white;
   --iti-spacer-horizontal: 15px;
-  --iti-flag-height: 12px;
-  --iti-flag-width: 16px;
+  --iti-flag-height: 21px;
+  --iti-flag-width:28px;
   --iti-border-width: 1px;
   --iti-arrow-height: 4px;
   --iti-arrow-width: 6px;
@@ -16,8 +16,8 @@
   --iti-path-flags-2x: url("../img/content/flags@2x.webp");
   --iti-path-globe-1x: url("../img/content/globe.webp");
   --iti-path-globe-2x: url("../img/content/globe@2x.webp");
-  --iti-flag-sprite-width: 3904px;
-  --iti-flag-sprite-height: 12px;
+  --iti-flag-sprite-width: 6832px;
+  --iti-flag-sprite-height: 21px;
   --iti-mobile-popup-margin: 30px;
 }
 
@@ -158,9 +158,9 @@
 .iti--allow-dropdown .iti__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti__selected-country:has(+ .iti__dropdown-content:hover) .iti__selected-country-primary {
   background-color: var(--iti-hover-color);
 }
-.iti .iti__selected-dial-code {
-  margin-left: 4px;
-}
+// .iti .iti__selected-dial-code {
+//   margin-left: 4px;
+// }
 [dir=rtl] .iti .iti__selected-dial-code {
   margin-left: 0;
   margin-right: 4px;
@@ -205,987 +205,987 @@
   width: var(--iti-flag-width);
   border-radius: 1px;
   box-shadow: 0px 0px 1px 0px #888;
-  background-image: var(--iti-path-flags-1x);
+  background-image: var(--iti-path-flags-2x);
   background-repeat: no-repeat;
   background-position: var(--iti-flag-offset) 0;
   background-size: var(--iti-flag-sprite-width) var(--iti-flag-sprite-height);
 }
-
 .iti__ac {
-  --iti-flag-offset: 0px;
+  --iti-flag-offset: 0px
 }
 
 .iti__ad {
-  --iti-flag-offset: -16px;
+  --iti-flag-offset: -28px
 }
 
 .iti__ae {
-  --iti-flag-offset: -32px;
+  --iti-flag-offset: -56px
 }
 
 .iti__af {
-  --iti-flag-offset: -48px;
+  --iti-flag-offset: -84px
 }
 
 .iti__ag {
-  --iti-flag-offset: -64px;
+  --iti-flag-offset: -112px
 }
 
 .iti__ai {
-  --iti-flag-offset: -80px;
+  --iti-flag-offset: -140px
 }
 
 .iti__al {
-  --iti-flag-offset: -96px;
+  --iti-flag-offset: -168px
 }
 
 .iti__am {
-  --iti-flag-offset: -112px;
+  --iti-flag-offset: -196px
 }
 
 .iti__ao {
-  --iti-flag-offset: -128px;
+  --iti-flag-offset: -224px
 }
 
 .iti__ar {
-  --iti-flag-offset: -144px;
+  --iti-flag-offset: -252px
 }
 
 .iti__as {
-  --iti-flag-offset: -160px;
+  --iti-flag-offset: -280px
 }
 
 .iti__at {
-  --iti-flag-offset: -176px;
+  --iti-flag-offset: -308px
 }
 
 .iti__au {
-  --iti-flag-offset: -192px;
+  --iti-flag-offset: -336px
 }
 
 .iti__aw {
-  --iti-flag-offset: -208px;
+  --iti-flag-offset: -364px
 }
 
 .iti__ax {
-  --iti-flag-offset: -224px;
+  --iti-flag-offset: -392px
 }
 
 .iti__az {
-  --iti-flag-offset: -240px;
+  --iti-flag-offset: -420px
 }
 
 .iti__ba {
-  --iti-flag-offset: -256px;
+  --iti-flag-offset: -448px
 }
 
 .iti__bb {
-  --iti-flag-offset: -272px;
+  --iti-flag-offset: -476px
 }
 
 .iti__bd {
-  --iti-flag-offset: -288px;
+  --iti-flag-offset: -504px
 }
 
 .iti__be {
-  --iti-flag-offset: -304px;
+  --iti-flag-offset: -532px
 }
 
 .iti__bf {
-  --iti-flag-offset: -320px;
+  --iti-flag-offset: -560px
 }
 
 .iti__bg {
-  --iti-flag-offset: -336px;
+  --iti-flag-offset: -588px
 }
 
 .iti__bh {
-  --iti-flag-offset: -352px;
+  --iti-flag-offset: -616px
 }
 
 .iti__bi {
-  --iti-flag-offset: -368px;
+  --iti-flag-offset: -644px
 }
 
 .iti__bj {
-  --iti-flag-offset: -384px;
+  --iti-flag-offset: -672px
 }
 
 .iti__bl {
-  --iti-flag-offset: -400px;
+  --iti-flag-offset: -700px
 }
 
 .iti__bm {
-  --iti-flag-offset: -416px;
+  --iti-flag-offset: -728px
 }
 
 .iti__bn {
-  --iti-flag-offset: -432px;
+  --iti-flag-offset: -756px
 }
 
 .iti__bo {
-  --iti-flag-offset: -448px;
+  --iti-flag-offset: -784px
 }
 
 .iti__bq {
-  --iti-flag-offset: -464px;
+  --iti-flag-offset: -812px
 }
 
 .iti__br {
-  --iti-flag-offset: -480px;
+  --iti-flag-offset: -840px
 }
 
 .iti__bs {
-  --iti-flag-offset: -496px;
+  --iti-flag-offset: -868px
 }
 
 .iti__bt {
-  --iti-flag-offset: -512px;
+  --iti-flag-offset: -896px
 }
 
 .iti__bw {
-  --iti-flag-offset: -528px;
+  --iti-flag-offset: -924px
 }
 
 .iti__by {
-  --iti-flag-offset: -544px;
+  --iti-flag-offset: -952px
 }
 
 .iti__bz {
-  --iti-flag-offset: -560px;
+  --iti-flag-offset: -980px
 }
 
 .iti__ca {
-  --iti-flag-offset: -576px;
+  --iti-flag-offset: -1008px
 }
 
 .iti__cc {
-  --iti-flag-offset: -592px;
+  --iti-flag-offset: -1036px
 }
 
 .iti__cd {
-  --iti-flag-offset: -608px;
+  --iti-flag-offset: -1064px
 }
 
 .iti__cf {
-  --iti-flag-offset: -624px;
+  --iti-flag-offset: -1092px
 }
 
 .iti__cg {
-  --iti-flag-offset: -640px;
+  --iti-flag-offset: -1120px
 }
 
 .iti__ch {
-  --iti-flag-offset: -656px;
+  --iti-flag-offset: -1148px
 }
 
 .iti__ci {
-  --iti-flag-offset: -672px;
+  --iti-flag-offset: -1176px
 }
 
 .iti__ck {
-  --iti-flag-offset: -688px;
+  --iti-flag-offset: -1204px
 }
 
 .iti__cl {
-  --iti-flag-offset: -704px;
+  --iti-flag-offset: -1232px
 }
 
 .iti__cm {
-  --iti-flag-offset: -720px;
+  --iti-flag-offset: -1260px
 }
 
 .iti__cn {
-  --iti-flag-offset: -736px;
+  --iti-flag-offset: -1288px
 }
 
 .iti__co {
-  --iti-flag-offset: -752px;
+  --iti-flag-offset: -1316px
 }
 
 .iti__cr {
-  --iti-flag-offset: -768px;
+  --iti-flag-offset: -1344px
 }
 
 .iti__cu {
-  --iti-flag-offset: -784px;
+  --iti-flag-offset: -1372px
 }
 
 .iti__cv {
-  --iti-flag-offset: -800px;
+  --iti-flag-offset: -1400px
 }
 
 .iti__cw {
-  --iti-flag-offset: -816px;
+  --iti-flag-offset: -1428px
 }
 
 .iti__cx {
-  --iti-flag-offset: -832px;
+  --iti-flag-offset: -1456px
 }
 
 .iti__cy {
-  --iti-flag-offset: -848px;
+  --iti-flag-offset: -1484px
 }
 
 .iti__cz {
-  --iti-flag-offset: -864px;
+  --iti-flag-offset: -1512px
 }
 
 .iti__de {
-  --iti-flag-offset: -880px;
+  --iti-flag-offset: -1540px
 }
 
 .iti__dj {
-  --iti-flag-offset: -896px;
+  --iti-flag-offset: -1568px
 }
 
 .iti__dk {
-  --iti-flag-offset: -912px;
+  --iti-flag-offset: -1596px
 }
 
 .iti__dm {
-  --iti-flag-offset: -928px;
+  --iti-flag-offset: -1624px
 }
 
 .iti__do {
-  --iti-flag-offset: -944px;
+  --iti-flag-offset: -1652px
 }
 
 .iti__dz {
-  --iti-flag-offset: -960px;
+  --iti-flag-offset: -1680px
 }
 
 .iti__ec {
-  --iti-flag-offset: -976px;
+  --iti-flag-offset: -1708px
 }
 
 .iti__ee {
-  --iti-flag-offset: -992px;
+  --iti-flag-offset: -1736px
 }
 
 .iti__eg {
-  --iti-flag-offset: -1008px;
+  --iti-flag-offset: -1764px
 }
 
 .iti__eh {
-  --iti-flag-offset: -1024px;
+  --iti-flag-offset: -1792px
 }
 
 .iti__er {
-  --iti-flag-offset: -1040px;
+  --iti-flag-offset: -1820px
 }
 
 .iti__es {
-  --iti-flag-offset: -1056px;
+  --iti-flag-offset: -1848px
 }
 
 .iti__et {
-  --iti-flag-offset: -1072px;
+  --iti-flag-offset: -1876px
 }
 
 .iti__fi {
-  --iti-flag-offset: -1088px;
+  --iti-flag-offset: -1904px
 }
 
 .iti__fj {
-  --iti-flag-offset: -1104px;
+  --iti-flag-offset: -1932px
 }
 
 .iti__fk {
-  --iti-flag-offset: -1120px;
+  --iti-flag-offset: -1960px
 }
 
 .iti__fm {
-  --iti-flag-offset: -1136px;
+  --iti-flag-offset: -1988px
 }
 
 .iti__fo {
-  --iti-flag-offset: -1152px;
+  --iti-flag-offset: -2016px
 }
 
 .iti__fr {
-  --iti-flag-offset: -1168px;
+  --iti-flag-offset: -2044px
 }
 
 .iti__ga {
-  --iti-flag-offset: -1184px;
+  --iti-flag-offset: -2072px
 }
 
 .iti__gb {
-  --iti-flag-offset: -1200px;
+  --iti-flag-offset: -2100px
 }
 
 .iti__gd {
-  --iti-flag-offset: -1216px;
+  --iti-flag-offset: -2128px
 }
 
 .iti__ge {
-  --iti-flag-offset: -1232px;
+  --iti-flag-offset: -2156px
 }
 
 .iti__gf {
-  --iti-flag-offset: -1248px;
+  --iti-flag-offset: -2184px
 }
 
 .iti__gg {
-  --iti-flag-offset: -1264px;
+  --iti-flag-offset: -2212px
 }
 
 .iti__gh {
-  --iti-flag-offset: -1280px;
+  --iti-flag-offset: -2240px
 }
 
 .iti__gi {
-  --iti-flag-offset: -1296px;
+  --iti-flag-offset: -2268px
 }
 
 .iti__gl {
-  --iti-flag-offset: -1312px;
+  --iti-flag-offset: -2296px
 }
 
 .iti__gm {
-  --iti-flag-offset: -1328px;
+  --iti-flag-offset: -2324px
 }
 
 .iti__gn {
-  --iti-flag-offset: -1344px;
+  --iti-flag-offset: -2352px
 }
 
 .iti__gp {
-  --iti-flag-offset: -1360px;
+  --iti-flag-offset: -2380px
 }
 
 .iti__gq {
-  --iti-flag-offset: -1376px;
+  --iti-flag-offset: -2408px
 }
 
 .iti__gr {
-  --iti-flag-offset: -1392px;
+  --iti-flag-offset: -2436px
 }
 
 .iti__gt {
-  --iti-flag-offset: -1408px;
+  --iti-flag-offset: -2464px
 }
 
 .iti__gu {
-  --iti-flag-offset: -1424px;
+  --iti-flag-offset: -2492px
 }
 
 .iti__gw {
-  --iti-flag-offset: -1440px;
+  --iti-flag-offset: -2520px
 }
 
 .iti__gy {
-  --iti-flag-offset: -1456px;
+  --iti-flag-offset: -2548px
 }
 
 .iti__hk {
-  --iti-flag-offset: -1472px;
+  --iti-flag-offset: -2576px
 }
 
 .iti__hn {
-  --iti-flag-offset: -1488px;
+  --iti-flag-offset: -2604px
 }
 
 .iti__hr {
-  --iti-flag-offset: -1504px;
+  --iti-flag-offset: -2632px
 }
 
 .iti__ht {
-  --iti-flag-offset: -1520px;
+  --iti-flag-offset: -2660px
 }
 
 .iti__hu {
-  --iti-flag-offset: -1536px;
+  --iti-flag-offset: -2688px
 }
 
 .iti__id {
-  --iti-flag-offset: -1552px;
+  --iti-flag-offset: -2716px
 }
 
 .iti__ie {
-  --iti-flag-offset: -1568px;
+  --iti-flag-offset: -2744px
 }
 
 .iti__il {
-  --iti-flag-offset: -1584px;
+  --iti-flag-offset: -2772px
 }
 
 .iti__im {
-  --iti-flag-offset: -1600px;
+  --iti-flag-offset: -2800px
 }
 
 .iti__in {
-  --iti-flag-offset: -1616px;
+  --iti-flag-offset: -2828px
 }
 
 .iti__io {
-  --iti-flag-offset: -1632px;
+  --iti-flag-offset: -2856px
 }
 
 .iti__iq {
-  --iti-flag-offset: -1648px;
+  --iti-flag-offset: -2884px
 }
 
 .iti__ir {
-  --iti-flag-offset: -1664px;
+  --iti-flag-offset: -2912px
 }
 
 .iti__is {
-  --iti-flag-offset: -1680px;
+  --iti-flag-offset: -2940px
 }
 
 .iti__it {
-  --iti-flag-offset: -1696px;
+  --iti-flag-offset: -2968px
 }
 
 .iti__je {
-  --iti-flag-offset: -1712px;
+  --iti-flag-offset: -2996px
 }
 
 .iti__jm {
-  --iti-flag-offset: -1728px;
+  --iti-flag-offset: -3024px
 }
 
 .iti__jo {
-  --iti-flag-offset: -1744px;
+  --iti-flag-offset: -3052px
 }
 
 .iti__jp {
-  --iti-flag-offset: -1760px;
+  --iti-flag-offset: -3080px
 }
 
 .iti__ke {
-  --iti-flag-offset: -1776px;
+  --iti-flag-offset: -3108px
 }
 
 .iti__kg {
-  --iti-flag-offset: -1792px;
+  --iti-flag-offset: -3136px
 }
 
 .iti__kh {
-  --iti-flag-offset: -1808px;
+  --iti-flag-offset: -3164px
 }
 
 .iti__ki {
-  --iti-flag-offset: -1824px;
+  --iti-flag-offset: -3192px
 }
 
 .iti__km {
-  --iti-flag-offset: -1840px;
+  --iti-flag-offset: -3220px
 }
 
 .iti__kn {
-  --iti-flag-offset: -1856px;
+  --iti-flag-offset: -3248px
 }
 
 .iti__kp {
-  --iti-flag-offset: -1872px;
+  --iti-flag-offset: -3276px
 }
 
 .iti__kr {
-  --iti-flag-offset: -1888px;
+  --iti-flag-offset: -3304px
 }
 
 .iti__kw {
-  --iti-flag-offset: -1904px;
+  --iti-flag-offset: -3332px
 }
 
 .iti__ky {
-  --iti-flag-offset: -1920px;
+  --iti-flag-offset: -3360px
 }
 
 .iti__kz {
-  --iti-flag-offset: -1936px;
+  --iti-flag-offset: -3388px
 }
 
 .iti__la {
-  --iti-flag-offset: -1952px;
+  --iti-flag-offset: -3416px
 }
 
 .iti__lb {
-  --iti-flag-offset: -1968px;
+  --iti-flag-offset: -3444px
 }
 
 .iti__lc {
-  --iti-flag-offset: -1984px;
+  --iti-flag-offset: -3472px
 }
 
 .iti__li {
-  --iti-flag-offset: -2000px;
+  --iti-flag-offset: -3500px
 }
 
 .iti__lk {
-  --iti-flag-offset: -2016px;
+  --iti-flag-offset: -3528px
 }
 
 .iti__lr {
-  --iti-flag-offset: -2032px;
+  --iti-flag-offset: -3556px
 }
 
 .iti__ls {
-  --iti-flag-offset: -2048px;
+  --iti-flag-offset: -3584px
 }
 
 .iti__lt {
-  --iti-flag-offset: -2064px;
+  --iti-flag-offset: -3612px
 }
 
 .iti__lu {
-  --iti-flag-offset: -2080px;
+  --iti-flag-offset: -3640px
 }
 
 .iti__lv {
-  --iti-flag-offset: -2096px;
+  --iti-flag-offset: -3668px
 }
 
 .iti__ly {
-  --iti-flag-offset: -2112px;
+  --iti-flag-offset: -3696px
 }
 
 .iti__ma {
-  --iti-flag-offset: -2128px;
+  --iti-flag-offset: -3724px
 }
 
 .iti__mc {
-  --iti-flag-offset: -2144px;
+  --iti-flag-offset: -3752px
 }
 
 .iti__md {
-  --iti-flag-offset: -2160px;
+  --iti-flag-offset: -3780px
 }
 
 .iti__me {
-  --iti-flag-offset: -2176px;
+  --iti-flag-offset: -3808px
 }
 
 .iti__mf {
-  --iti-flag-offset: -2192px;
+  --iti-flag-offset: -3836px
 }
 
 .iti__mg {
-  --iti-flag-offset: -2208px;
+  --iti-flag-offset: -3864px
 }
 
 .iti__mh {
-  --iti-flag-offset: -2224px;
+  --iti-flag-offset: -3892px
 }
 
 .iti__mk {
-  --iti-flag-offset: -2240px;
+  --iti-flag-offset: -3920px
 }
 
 .iti__ml {
-  --iti-flag-offset: -2256px;
+  --iti-flag-offset: -3948px
 }
 
 .iti__mm {
-  --iti-flag-offset: -2272px;
+  --iti-flag-offset: -3976px
 }
 
 .iti__mn {
-  --iti-flag-offset: -2288px;
+  --iti-flag-offset: -4004px
 }
 
 .iti__mo {
-  --iti-flag-offset: -2304px;
+  --iti-flag-offset: -4032px
 }
 
 .iti__mp {
-  --iti-flag-offset: -2320px;
+  --iti-flag-offset: -4060px
 }
 
 .iti__mq {
-  --iti-flag-offset: -2336px;
+  --iti-flag-offset: -4088px
 }
 
 .iti__mr {
-  --iti-flag-offset: -2352px;
+  --iti-flag-offset: -4116px
 }
 
 .iti__ms {
-  --iti-flag-offset: -2368px;
+  --iti-flag-offset: -4144px
 }
 
 .iti__mt {
-  --iti-flag-offset: -2384px;
+  --iti-flag-offset: -4172px
 }
 
 .iti__mu {
-  --iti-flag-offset: -2400px;
+  --iti-flag-offset: -4200px
 }
 
 .iti__mv {
-  --iti-flag-offset: -2416px;
+  --iti-flag-offset: -4228px
 }
 
 .iti__mw {
-  --iti-flag-offset: -2432px;
+  --iti-flag-offset: -4256px
 }
 
 .iti__mx {
-  --iti-flag-offset: -2448px;
+  --iti-flag-offset: -4284px
 }
 
 .iti__my {
-  --iti-flag-offset: -2464px;
+  --iti-flag-offset: -4312px
 }
 
 .iti__mz {
-  --iti-flag-offset: -2480px;
+  --iti-flag-offset: -4340px
 }
 
 .iti__na {
-  --iti-flag-offset: -2496px;
+  --iti-flag-offset: -4368px
 }
 
 .iti__nc {
-  --iti-flag-offset: -2512px;
+  --iti-flag-offset: -4396px
 }
 
 .iti__ne {
-  --iti-flag-offset: -2528px;
+  --iti-flag-offset: -4424px
 }
 
 .iti__nf {
-  --iti-flag-offset: -2544px;
+  --iti-flag-offset: -4452px
 }
 
 .iti__ng {
-  --iti-flag-offset: -2560px;
+  --iti-flag-offset: -4480px
 }
 
 .iti__ni {
-  --iti-flag-offset: -2576px;
+  --iti-flag-offset: -4508px
 }
 
 .iti__nl {
-  --iti-flag-offset: -2592px;
+  --iti-flag-offset: -4536px
 }
 
 .iti__no {
-  --iti-flag-offset: -2608px;
+  --iti-flag-offset: -4564px
 }
 
 .iti__np {
-  --iti-flag-offset: -2624px;
+  --iti-flag-offset: -4592px
 }
 
 .iti__nr {
-  --iti-flag-offset: -2640px;
+  --iti-flag-offset: -4620px
 }
 
 .iti__nu {
-  --iti-flag-offset: -2656px;
+  --iti-flag-offset: -4648px
 }
 
 .iti__nz {
-  --iti-flag-offset: -2672px;
+  --iti-flag-offset: -4676px
 }
 
 .iti__om {
-  --iti-flag-offset: -2688px;
+  --iti-flag-offset: -4704px
 }
 
 .iti__pa {
-  --iti-flag-offset: -2704px;
+  --iti-flag-offset: -4732px
 }
 
 .iti__pe {
-  --iti-flag-offset: -2720px;
+  --iti-flag-offset: -4760px
 }
 
 .iti__pf {
-  --iti-flag-offset: -2736px;
+  --iti-flag-offset: -4788px
 }
 
 .iti__pg {
-  --iti-flag-offset: -2752px;
+  --iti-flag-offset: -4816px
 }
 
 .iti__ph {
-  --iti-flag-offset: -2768px;
+  --iti-flag-offset: -4844px
 }
 
 .iti__pk {
-  --iti-flag-offset: -2784px;
+  --iti-flag-offset: -4872px
 }
 
 .iti__pl {
-  --iti-flag-offset: -2800px;
+  --iti-flag-offset: -4900px
 }
 
 .iti__pm {
-  --iti-flag-offset: -2816px;
+  --iti-flag-offset: -4928px
 }
 
 .iti__pr {
-  --iti-flag-offset: -2832px;
+  --iti-flag-offset: -4956px
 }
 
 .iti__ps {
-  --iti-flag-offset: -2848px;
+  --iti-flag-offset: -4984px
 }
 
 .iti__pt {
-  --iti-flag-offset: -2864px;
+  --iti-flag-offset: -5012px
 }
 
 .iti__pw {
-  --iti-flag-offset: -2880px;
+  --iti-flag-offset: -5040px
 }
 
 .iti__py {
-  --iti-flag-offset: -2896px;
+  --iti-flag-offset: -5068px
 }
 
 .iti__qa {
-  --iti-flag-offset: -2912px;
+  --iti-flag-offset: -5096px
 }
 
 .iti__re {
-  --iti-flag-offset: -2928px;
+  --iti-flag-offset: -5124px
 }
 
 .iti__ro {
-  --iti-flag-offset: -2944px;
+  --iti-flag-offset: -5152px
 }
 
 .iti__rs {
-  --iti-flag-offset: -2960px;
+  --iti-flag-offset: -5180px
 }
 
 .iti__ru {
-  --iti-flag-offset: -2976px;
+  --iti-flag-offset: -5208px
 }
 
 .iti__rw {
-  --iti-flag-offset: -2992px;
+  --iti-flag-offset: -5236px
 }
 
 .iti__sa {
-  --iti-flag-offset: -3008px;
+  --iti-flag-offset: -5264px
 }
 
 .iti__sb {
-  --iti-flag-offset: -3024px;
+  --iti-flag-offset: -5292px
 }
 
 .iti__sc {
-  --iti-flag-offset: -3040px;
+  --iti-flag-offset: -5320px
 }
 
 .iti__sd {
-  --iti-flag-offset: -3056px;
+  --iti-flag-offset: -5348px
 }
 
 .iti__se {
-  --iti-flag-offset: -3072px;
+  --iti-flag-offset: -5376px
 }
 
 .iti__sg {
-  --iti-flag-offset: -3088px;
+  --iti-flag-offset: -5404px
 }
 
 .iti__sh {
-  --iti-flag-offset: -3104px;
+  --iti-flag-offset: -5432px
 }
 
 .iti__si {
-  --iti-flag-offset: -3120px;
+  --iti-flag-offset: -5460px
 }
 
 .iti__sj {
-  --iti-flag-offset: -3136px;
+  --iti-flag-offset: -5488px
 }
 
 .iti__sk {
-  --iti-flag-offset: -3152px;
+  --iti-flag-offset: -5516px
 }
 
 .iti__sl {
-  --iti-flag-offset: -3168px;
+  --iti-flag-offset: -5544px
 }
 
 .iti__sm {
-  --iti-flag-offset: -3184px;
+  --iti-flag-offset: -5572px
 }
 
 .iti__sn {
-  --iti-flag-offset: -3200px;
+  --iti-flag-offset: -5600px
 }
 
 .iti__so {
-  --iti-flag-offset: -3216px;
+  --iti-flag-offset: -5628px
 }
 
 .iti__sr {
-  --iti-flag-offset: -3232px;
+  --iti-flag-offset: -5656px
 }
 
 .iti__ss {
-  --iti-flag-offset: -3248px;
+  --iti-flag-offset: -5684px
 }
 
 .iti__st {
-  --iti-flag-offset: -3264px;
+  --iti-flag-offset: -5712px
 }
 
 .iti__sv {
-  --iti-flag-offset: -3280px;
+  --iti-flag-offset: -5740px
 }
 
 .iti__sx {
-  --iti-flag-offset: -3296px;
+  --iti-flag-offset: -5768px
 }
 
 .iti__sy {
-  --iti-flag-offset: -3312px;
+  --iti-flag-offset: -5796px
 }
 
 .iti__sz {
-  --iti-flag-offset: -3328px;
+  --iti-flag-offset: -5824px
 }
 
 .iti__tc {
-  --iti-flag-offset: -3344px;
+  --iti-flag-offset: -5852px
 }
 
 .iti__td {
-  --iti-flag-offset: -3360px;
+  --iti-flag-offset: -5880px
 }
 
 .iti__tg {
-  --iti-flag-offset: -3376px;
+  --iti-flag-offset: -5908px
 }
 
 .iti__th {
-  --iti-flag-offset: -3392px;
+  --iti-flag-offset: -5936px
 }
 
 .iti__tj {
-  --iti-flag-offset: -3408px;
+  --iti-flag-offset: -5964px
 }
 
 .iti__tk {
-  --iti-flag-offset: -3424px;
+  --iti-flag-offset: -5992px
 }
 
 .iti__tl {
-  --iti-flag-offset: -3440px;
+  --iti-flag-offset: -6020px
 }
 
 .iti__tm {
-  --iti-flag-offset: -3456px;
+  --iti-flag-offset: -6048px
 }
 
 .iti__tn {
-  --iti-flag-offset: -3472px;
+  --iti-flag-offset: -6076px
 }
 
 .iti__to {
-  --iti-flag-offset: -3488px;
+  --iti-flag-offset: -6104px
 }
 
 .iti__tr {
-  --iti-flag-offset: -3504px;
+  --iti-flag-offset: -6132px
 }
 
 .iti__tt {
-  --iti-flag-offset: -3520px;
+  --iti-flag-offset: -6160px
 }
 
 .iti__tv {
-  --iti-flag-offset: -3536px;
+  --iti-flag-offset: -6188px
 }
 
 .iti__tw {
-  --iti-flag-offset: -3552px;
+  --iti-flag-offset: -6216px
 }
 
 .iti__tz {
-  --iti-flag-offset: -3568px;
+  --iti-flag-offset: -6244px
 }
 
 .iti__ua {
-  --iti-flag-offset: -3584px;
+  --iti-flag-offset: -6272px
 }
 
 .iti__ug {
-  --iti-flag-offset: -3600px;
+  --iti-flag-offset: -6300px
 }
 
 .iti__us {
-  --iti-flag-offset: -3616px;
+  --iti-flag-offset: -6328px
 }
 
 .iti__uy {
-  --iti-flag-offset: -3632px;
+  --iti-flag-offset: -6356px
 }
 
 .iti__uz {
-  --iti-flag-offset: -3648px;
+  --iti-flag-offset: -6384px
 }
 
 .iti__va {
-  --iti-flag-offset: -3664px;
+  --iti-flag-offset: -6412px
 }
 
 .iti__vc {
-  --iti-flag-offset: -3680px;
+  --iti-flag-offset: -6440px
 }
 
 .iti__ve {
-  --iti-flag-offset: -3696px;
+  --iti-flag-offset: -6468px
 }
 
 .iti__vg {
-  --iti-flag-offset: -3712px;
+  --iti-flag-offset: -6496px
 }
 
 .iti__vi {
-  --iti-flag-offset: -3728px;
+  --iti-flag-offset: -6524px
 }
 
 .iti__vn {
-  --iti-flag-offset: -3744px;
+  --iti-flag-offset: -6552px
 }
 
 .iti__vu {
-  --iti-flag-offset: -3760px;
+  --iti-flag-offset: -6580px
 }
 
 .iti__wf {
-  --iti-flag-offset: -3776px;
+  --iti-flag-offset: -6608px
 }
 
 .iti__ws {
-  --iti-flag-offset: -3792px;
+  --iti-flag-offset: -6636px
 }
 
 .iti__xk {
-  --iti-flag-offset: -3808px;
+  --iti-flag-offset: -6664px
 }
 
 .iti__ye {
-  --iti-flag-offset: -3824px;
+  --iti-flag-offset: -6692px
 }
 
 .iti__yt {
-  --iti-flag-offset: -3840px;
+  --iti-flag-offset: -6720px
 }
 
 .iti__za {
-  --iti-flag-offset: -3856px;
+  --iti-flag-offset: -6748px
 }
 
 .iti__zm {
-  --iti-flag-offset: -3872px;
+  --iti-flag-offset: -6776px
 }
 
 .iti__zw {
-  --iti-flag-offset: -3888px;
+  --iti-flag-offset: -6804px
 }
+
 
 .iti__globe {
   background-image: var(--iti-path-globe-1x);

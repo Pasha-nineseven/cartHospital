@@ -8,37 +8,406 @@
 }
 
 //MEDIA
-@media screen and (max-width: 991px){
-    .copy{
-        font-size: 14px;
+@media screen and (max-width: 1260px){
+    body{
+        font-size: 18px;
     }
-    .socials__item {
-        margin-right: 10px;
+    .top-nav__item {
+        padding: 8px 12px;
+        font-size: 18px;
     }
-    .p-partners__item {
-        margin: 0 20px 0 0;
+    .layout h1, .page-popup h1 {
+        font-size: 60px;
+    }
+    .what__subhead,
+    .what__item.m-color,
+    .what__question,
+    .cost__info,
+    .why__top,
+    .our__title,
+    .a-info-top,
+    .history__info{
+        font-size: 22px;
+    }
+    .why__more,
+    .btn-more {
+        font-size: 24px;
     }
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1160px){
+    .logo {
+        max-width: 220px;
+    }
+    .page-header .socials__item {
+        margin: 0 12px 0 0;
+        width: 28px;
+        height: 28px;
+    }
+    .top-nav__item{
+        font-size: 16px;
+    }
+    .layout h2, .page-popup h2 {
+        font-size: 38px;
+    }
+    .what__in {
+        padding: 40px;
+    }
+    .cost__title,
+    .what__pre,
+    .why__img,
+    .about__pre{
+        width: 50%;
+        min-width: 50%;
+    }
+    .why__img,
+    .about__pre{
+        margin-right: 30px;
+    }
+    .why__top .why__item {
+        padding: 0 40px 0 0;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    .page-top-form__img {
+        margin-right: 20px;
+        min-width: 55px;
+        width: 55px;
+    }
+    .page-top__wrap{
+        background-size: contain;
+        padding: 49px 40px 205px 40px;
+    }
+    .page-top-form__container {
+        flex-direction: column;
+    }
+    .page-top-form__input{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .page-top-form__submit {
+        display: block;
+    }
+    .layout h1, .page-popup h1 {
+        font-size: 42px;
+    }
+    .layout h2, .page-popup h2 {
+        font-size: 36px;
+    }
+    .page-top__view{
+        font-size: 20px;
+    }
+    .c-list {
+        column-gap: 12px;
+    }
+    .c-list__txt{
+        font-size: 16px;
+    }
+    .what__wrap {
+        flex-direction: column;
+    }
+    .what__pre{
+        width: 100%;
+        min-width: 100%;
+    }
+    .what__pre h2 br{
+        display: none;
+    }
+    .what__subhead {
+        margin-bottom: 32px;
+    }
+    .what__question{
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+    .what__in {
+        padding: 80px 40px 40px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .top-nav,
+    .page-header .socials{
+        display: none;
+    }
+    .menu-btn{
+        display: inline-flex;
+    }
+    .menu-mobile{
+        .top-nav{
+            display: block;
+        }
+    }
+    .history__person {
+        height: 300px;
+    }
+    .history__info {
+        padding: 20px 20px 60px;
+    }
+    .a-info-top, .cost__info, .history__info, .our__title, .what__item.m-color, .what__question, .what__subhead, .why__top {
+        font-size: 20px;
+    }
+
+
+    .page-top-form{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-top: -100px;
+    }
+    .page-top {
+        margin: 0 0 30px;
+    }
+    .socials__item {
+        margin-right: 15px;
+    }
+    .history__person img {
+        width: 100%;
+        object-position: top;
+    }
+    .price-btn{
+        font-size: 28px;
+    }
+    .why__more br{
+        display: none;
+    }
+    .btn-more, .why__more {
+        font-size: 20px;
+    }
+    .why__item{
+        padding: 20px;
+    }
+    .why__num {
+        font-size: 36px;
+        min-width: 40px;
+    }
+    .why__top {
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .why__item{
+        width: 100%;
+    }
+    .why__list {
+        gap: 10px;
+    }
+    .why__top{
+        margin-bottom: 10px;
+    }
+    .about__wrap {
+        flex-direction: column;
+    }
+    .about__pre{
+        width: 100%;
+        min-width: 100%;
+        margin: 0 0 32px 0;
+    }
+    .about__clar{
+        max-width: 100%;
+    }
+    .about__info{
+        padding-left: 0;
+    }
+    .cost__wrap{
+        flex-direction: column;
+    }
+    .cost__title{
+        width: 100%;
+        min-width: 100%;
+        margin: 0 0 32px 0;
+    }
+    .cost__info{
+        padding: 0;
+    }
+    .cost__price {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .layout h2, .page-popup h2 {
+        font-size: 30px;
+    }
+    .layout h3, .page-popup h3 {
+        font-size: 24px;
+    }
+    .page-top__title {
+        margin-right: 0;
+    }
+    .page-top__wrap{
+        flex-direction: column;
+    }
+    .page-top h1{
+        margin-bottom: 32px;
+    }
+    .page-top__view:before{
+        background-size: contain;
+        margin: 5px 10px 0 0;
+        min-width: 48px;
+        height: 18px;
+    }
+    .page-top__view {
+        font-size: 18px;
+    }
+    .page-top-form__wrap {
+        flex-direction: column;
+    }
+    .page-top-form__info {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
     .page-footer__wrap {
         flex-direction: column;
         position: relative;
-        padding-bottom: 40px;
-        text-align: center;
+        padding-bottom: 60px;
     }
     .copy{
         position: absolute;
         left: 50%;
-        bottom: 10px;
         transform: translateX(-50%);
+        bottom: 20px;
+        text-align: center;
+        font-size: 14px;
         width: 100%;
     }
-    .b-logo,
-    .socials{
-        margin-bottom: 16px;
+    .b-logo {
+        margin-bottom: 15px;
     }
-    .p-partners{
-        margin: 0 0 16px;
+    .p-partners {
+        width: 100%;
+        justify-content: center;
+        margin: 0 0 15px 0;
+        padding: 20px 15px;
+    }
+    .p-partners__item {
+        margin: 0 15px 0 0;
+    }
+    .page-footer .socials{
+        margin-bottom: 15px;
+    }
+    .btn-gotop{
+        bottom: 20px;
+    }
+    .what__in,
+    .cost__in,
+    .our__in,
+    .about__in,
+    .history__in{
+        padding: 25px 20px;
+    }
+    .why__top .why__item{
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 20px;
+        align-items: center;
+    }
+    .why__img{
+        width: 100%;
+        min-width: 100%;
+        margin: 0 0 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    .why__info {
+        padding: 0;
+        text-align: center;
+    }
+    .history__slider{
+        padding-top: 0;
+    }
+    .price-btn {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .price-btn:before {
+        width: 40px;
+        height: 47px;
+        background-size: contain;
+    }
+    .price-btn:after{
+        display: none;
+    }
+    .p-close-btn {
+        font-size: 24px;
+    }
+    .success-info {
+        font-size: 20px;
+    }
+    .p-socials__link {
+        font-size: 20px;
+    }
+    .page-popup .p-socials__icon {
+        width: 30px;
+        height: 30px;
+    }
+    .manager__view {
+        font-size: 20px;
+    }
+    .page-popup h4 {
+        font-size: 20px;
+    }
+    .page404-back{
+        font-size: 20px;
+    }
+    .page404-back:before {
+        width: 23px;
+        height: 18px;
+        background-size: contain;
+    }
+    .layout.m404 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .menu-mobile {
+        width: calc(100% - 20px);
+        right: -100%;
+    }
+    .history__slider {
+        margin: 0 -40px;
+        padding: 0 40px;
+    }
+    
+    .page-top-form__title{
+        font-size: 20px;
+    }
+    .page-top-form__img{
+        display: none;
+    }
+    .what__list{
+        column-count: 1;
+    }
+    .price-btn {
+        font-size: 16px;
+    }
+    .p-close-btn {
+        font-size: 20px;
+    }
+    .page-popup {
+        padding: 56px 25px 35px;
+    }
+    .a-info-top, .cost__info, .history__info, .our__title, .what__item.m-color, .what__question, .what__subhead, .why__top {
+        font-size: 18px;
+    }
+    .what__question{
+        padding: 25px 20px 56px 20px;
+    }
+    .about__clar{
+        padding: 25px 20px;
+    }
+    .page404-view {
+        background-size: contain;
+    }
+    .c-list__txt {
+        font-size: 12px;
     }
 }

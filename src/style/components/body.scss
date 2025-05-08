@@ -162,37 +162,66 @@ button {
         font-style: normal;
     }
     h4 {
-        font-size: 22px;
+        font-size: 24px;
         // margin: 0 0 40px 0;
-        margin: 0 0 32px 0;
+        margin: 0 0 20px 0;
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
     }
     
     
     ul {
         margin: 0;
         padding: 0;
+        li {
+            display: flex;
+            align-items: flex-start;
+            list-style-type: none;
+            margin-bottom: 16px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &:before {
+                content: "";
+                width: 6px;
+                min-width: 6px;
+                height: 6px;
+                background: #000;
+                display: inline-block;
+                vertical-align: middle;
+                border-radius: 50%;
+                margin: 11px 12px 0 5px;
+            }
+        }
     }
     
-    li {
-        display: flex;
-        align-items: flex-start;
-        list-style-type: none;
-        margin-bottom: 16px;
-        &:last-child {
+   ol{
+        margin: 0 0 20px 0;
+        padding: 0;
+        counter-reset: a;
+        &:last-child{
             margin-bottom: 0;
         }
-        &:before {
-            content: "";
-            width: 6px;
-            min-width: 6px;
-            height: 6px;
-            background: #000;
-            display: inline-block;
-            vertical-align: middle;
-            border-radius: 50%;
-            margin: 11px 12px 0 5px;
+        li{
+            margin: 0 0 20px 0;
+            padding-left: 30px;
+            position: relative;
+            list-style-type: none;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &:before{
+                counter-increment: a;
+                content: counter(a);
+                position: absolute;
+                left: 0;
+                top: 2px;
+                color: #41C3DA;
+            }
         }
-    }
+   }
     
 
     input[type="checkbox"]:not(:checked),
@@ -217,6 +246,13 @@ button {
         }
 	}
 
+    input[type="checkbox"]:not(:checked) + label:before{
+        background: #E6E6E6;
+    }
+    input[type="checkbox"]:checked + label:before{
+        background: #fff;
+    }
+
 	input[type="checkbox"]:not(:checked) + label:before,
 	input[type="checkbox"]:checked + label:before{
 		content: '';
@@ -227,7 +263,7 @@ button {
 		height: 23px;
 		border-radius: 5px;
         box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-        background: rgb(255, 255, 255);
+
 		z-index: 5;
 	}
 	input[type="checkbox"]:not(:checked) + label:after,

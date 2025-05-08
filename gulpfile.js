@@ -74,7 +74,7 @@ gulp.task('html:build', function () {
     return gulp.src(path.src.html)
         .pipe(plumber())
         .pipe(rigger())
-        .pipe(htmlmin({ collapseWhitespace: true }))
+        // .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(path.build.html))
         .pipe(webserver.reload({ stream: true }));
 });
