@@ -365,6 +365,9 @@
     .layout.m404 {
         padding: 20px;
     }
+    .disease__title {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -409,5 +412,16 @@
     }
     .c-list__txt {
         font-size: 12px;
+    }
+    .page-top__wrap {
+        background: #fff url(../img/content/structure.png) right calc(100% - 50px) no-repeat;
+        background-size: contain;
+        padding: 49px 40px 90px 40px;
+    }
+    .page-top-form {
+        margin-top: -50px;
+    }
+    .page-top__view {
+        font-size: 16px;
     }
 }

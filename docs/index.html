@@ -111,7 +111,7 @@
 								<div class="page-top-form__container">
 									<div class="page-top-form__input">
 										<div class="page-top-form__inner">
-											<input type="text" id="country-phone">
+											<input type="text" id="country-phone" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
 										</div>
 										<div class="checkbox-wrap">
 											<input type="checkbox" id="check1" name="check" checked>
@@ -669,7 +669,7 @@
 					<div class="page-top-form__container">
 						<div class="page-top-form__input">
 							<div class="page-top-form__inner">
-								<input type="text" id="country-phone-popup">
+								<input type="text" id="country-phone-popup"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"> 
 							</div>
 							<div class="checkbox-wrap">
 								<input type="checkbox" id="check1" name="check" checked>
